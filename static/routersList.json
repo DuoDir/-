@@ -1,0 +1,494 @@
+{
+  "code": 1,
+  "data": [{
+      "component": "dealerManagement",
+      "name": "dealerManagement",
+      "path": "/dealerManagement",
+      "icon": "el-icon-document",
+      "title": "经销商管理",
+      "children": [
+        {
+          "name": "DealerGroup",
+          "path": "/DealerGroup",
+          "component": "DealerGroup",
+          "title": "经销商集团",
+          "type": "page",
+          "button": [
+            {
+              "name": "GroupDetail",
+              "path": "/GroupDetail",
+              "component": "GroupDetail",
+              "title": "经销商集团详情",
+              "type": "page"
+            },
+            {
+              "name": "GroupEdit",
+              "path": "/GroupEdit",
+              "component": "GroupEdit",
+              "title": "经销商集团编辑",
+              "type": "page"
+            }]
+        },
+        {
+          "name": "StoreList",
+          "path": "/StoreList",
+          "component": "StoreList",
+          "title": "经销商专营店",
+          "type": "page",
+          "button": []
+        },
+        {
+          "name": "StoreDetail",
+          "path": "/StoreDetail",
+          "component": "StoreDetail",
+          "title": "经销商专营店详情",
+          "type": "page"
+        },
+        {
+          "name": "StoreEdit",
+          "path": "/StoreEdit",
+          "component": "StoreEdit",
+          "title": "经销商专营店编辑",
+          "type": "page"
+        },
+        {
+          "name": "personList",
+          "path": "/personList",
+          "component": "personList",
+          "title": "人员列表",
+          "type": "page",
+          "button": [
+            {
+              "name": "personLeaveBtn",
+              "title": "离职按钮",
+              "icon": "el-icon-plus",
+              "type": "button"
+            },
+            {
+              "name": "PostchangeBtn",
+              "title": "岗位调动",
+              "icon": "el-icon-plus",
+              "type": "button"
+            },
+            {
+              "name": "UnitchangeBtn",
+              "title": "单位调动",
+              "icon": "el-icon-plus",
+              "type": "button"
+            }
+          ]
+        },
+        {
+          "name": "personAdd",
+          "path": "/personAdd",
+          "component": "personAdd",
+          "title": "人员新增",
+          "type": "page"
+        },
+        {
+          "name": "personEdit",
+          "path": "/personEdit",
+          "component": "personEdit",
+          "title": "人员编辑",
+          "type": "page"
+        },
+        {
+          "name": "personDetail",
+          "path": "/personDetail",
+          "component": "personDetail",
+          "title": "人员详情",
+          "type": "page"
+        }
+      ]
+    }, {
+      "component": "carManagement",
+      "name": "carManagement",
+      "path": "/carManagement",
+      "icon": "el-icon-document",
+      "title": "车辆管理",
+      "children": [{
+        "name": "carList",
+        "path": "/carList",
+        "component": "carList",
+        "title": "车辆列表",
+        "type": "page",
+        "button": [{
+          "name": "carAssessOperation",
+          "path": "/carAssessOperation",
+          "component": "carAssessOperation",
+          "title": "评估操作",
+          "type": "page"
+        }, {
+          "name": "carAssessDetail",
+          "path": "/carAssessDetail",
+          "component": "carAssessDetail",
+          "title": "详情",
+          "type": "page"
+        }, {
+          "name": "createCard",
+          "title": "车辆建卡",
+          "icon": "el-icon-plus",
+          "type": "button"
+        }, {
+          "name": "carEnterStorage",
+          "title": "入库",
+          "type": "button"
+        }, {
+          "name": "carExamineReport",
+          "path": "/carExamineReport",
+          "component": "carExamineReport",
+          "title": "查看检测报告",
+          "type": "button"
+        }, {
+          "name": "sellTransferEdit",
+          "path": "/sellTransferEdit",
+          "component": "sellTransferEdit",
+          "title": "销售过户",
+          "type": "page"
+        }, {
+          "name": "certificationReport",
+          "path": "/certificationReport",
+          "component": "certificationReport",
+          "title": "认证汇报",
+          "type": "page"
+        }, {
+          "name": "backCertification",
+
+          "title": "汇报撤回",
+          "type": "button"
+        }, {
+          "name": "certificationReport",
+          "path": "/certificationReport",
+          "component": "certificationReport",
+          "title": "重新汇报",
+          "type": "page"
+        }, {
+          "name": "SellPrice",
+          "title": "销售定价",
+          "type": "button"
+        }, {
+          "name": "upShelf",
+          "title": "上架",
+          "type": "button"
+        }, {
+          "name": "downShelf",
+          "title": "下架",
+          "type": "button"
+        }, {
+          "name": "applyHostling",
+          "title": "发起整备",
+          "type": "button"
+        }, {
+          "name": "applyCertification",
+          "path": "/applyCertification",
+          "component": "applyCertification",
+          "title": "申请认证",
+          "type": "page"
+        }, {
+          "name": "createCarOrderInfo",
+          "path": "/createCarOrderInfo",
+          "component": "createCarOrderInfo",
+          "title": "车辆预定",
+          "type": "page"
+        }, {
+          "name": "uploadSalePic",
+          "title": "上传销售照片",
+          "type": "button"
+        }]
+      }, {
+        "name": "carsAssessList",
+        "path": "/carsAssessList",
+        "component": "carsAssessList",
+        "title": "车辆评估",
+        "type": "page",
+        "button": [{
+          "name": "carAssessOperation",
+          "path": "/carAssessOperation",
+          "component": "carAssessOperation",
+          "title": "评估操作",
+          "type": "page"
+        }, {
+          "name": "carAssessDetail",
+          "path": "/carAssessDetail",
+          "component": "carAssessDetail",
+          "title": "评估详情",
+          "type": "page"
+        }, {
+          "name": "createCard",
+          "title": "车辆建卡",
+          "icon": "el-icon-plus",
+          "type": "button"
+        }, {
+          "name": "carEnterStorage",
+          "title": "入库",
+          "type": "button"
+        }, {
+          "name": "carExamineReport",
+          "path": "/carExamineReport",
+          "component": "carExamineReport",
+          "title": "查看检测报告",
+          "type": "button"
+        }]
+      }, {
+        "name": "carOutStorageList",
+        "path": "/carOutStorageList",
+        "component": "carOutStorageList",
+        "title": "出库车辆",
+        "type": "page",
+        "button": [{
+          "name": "carAssessDetail",
+          "path": "/carAssessDetail",
+          "component": "carAssessDetail",
+          "title": "详情",
+          "type": "page"
+        }, {
+          "name": "sellTransferEdit",
+          "path": "/sellTransferEdit",
+          "component": "sellTransferEdit",
+          "title": "销售过户",
+          "type": "page"
+        }, {
+          "name": "certificationReport",
+          "path": "/certificationReport",
+          "component": "certificationReport",
+          "title": "认证汇报",
+          "type": "page"
+        }, {
+          "name": "backCertification",
+
+          "title": "汇报撤回",
+          "type": "button"
+        }, {
+          "name": "certificationReport",
+          "path": "/certificationReport",
+          "component": "certificationReport",
+          "title": "重新汇报",
+          "type": "page"
+        }]
+      }, {
+        "name": "carsInventoryList",
+        "path": "/carsInventoryList",
+        "component": "carsInventoryList",
+        "title": "库存车辆",
+        "type": "page",
+        "button": [{
+          "name": "carAssessDetail",
+          "path": "/carAssessDetail",
+          "component": "carAssessDetail",
+          "title": "详情",
+          "type": "page"
+        }, {
+          "name": "SellPrice",
+          "title": "销售定价",
+          "type": "button"
+        }, {
+          "name": "upShelf",
+          "title": "上架",
+          "type": "button"
+        }, {
+          "name": "downShelf",
+          "title": "下架",
+          "type": "button"
+        }, {
+          "name": "applyHostling",
+          "title": "发起整备",
+          "type": "button"
+        }, {
+          "name": "applyCertification",
+          "path": "/applyCertification",
+          "component": "applyCertification",
+          "title": "申请认证",
+          "type": "page"
+        }, {
+          "name": "createCarOrderInfo",
+          "path": "/createCarOrderInfo",
+          "component": "createCarOrderInfo",
+          "title": "车辆预定",
+          "type": "page"
+        }, {
+          "name": "uploadSalePic",
+          "title": "上传销售照片",
+          "type": "button"
+        }]
+      }, {
+        "name": "carOrderHostling",
+        "path": "/carOrderHostling",
+        "component": "carOrderHostling",
+        "title": "整备工单",
+        "type": "page",
+        "button": [{
+          "name": "hostlingDetail",
+          "title": "详情",
+          "type": "button"
+        }]
+      }]
+    }, {
+      "component": "carOrderManagement",
+      "name": "carOrderManagement",
+      "path": "/carOrderManagement",
+      "icon": "el-icon-document",
+      "title": "订单管理",
+      "children": [{
+        "name": "carOrderList",
+        "path": "/carOrderList",
+        "component": "carOrderList",
+        "title": "订单列表",
+        "type": "page",
+        "button": [{
+          "name": "createCarOrderInfo",
+          "path": "/createCarOrderInfo",
+          "component": "createCarOrderInfo",
+          "title": "新增订单",
+          "icon": "el-icon-plus",
+          "type": "button"
+        }, {
+          "name": "carOrderDetail",
+          "path": "/carOrderDetail",
+          "component": "carOrderDetail",
+          "title": "订单详情",
+          "icon": "el-icon-plus",
+          "type": "button"
+        }, {
+          "name": "detailButton",
+          "title": "详情",
+          "icon": "el-icon-plus",
+          "type": "button"
+        }]
+      }]
+    },
+    {
+      "component": "customManagement",
+      "name": "customManagement",
+      "path": "/customManagement",
+      "icon": "el-icon-document",
+      "title": "客户管理",
+      "children": [{
+        "name": "customList",
+        "path": "/customList",
+        "component": "customList",
+        "title": "客户列表",
+        "type": "page",
+        "button": [{
+          "name": "leadoutCustombtn",
+          "title": "导出按钮",
+          "icon": "el-icon-plus",
+          "type": "button"
+        }, {
+          "name": "leadinCustombtn",
+          "title": "导入按钮",
+          "icon": "el-icon-plus",
+          "type": "button"
+        }, {
+          "name": "lotchangeCustombtn",
+          "title": "批量转移按钮",
+          "icon": "el-icon-plus",
+          "type": "button"
+        }, {
+          "name": "followCustombtn",
+          "title": "跟进按钮",
+          "icon": "el-icon-plus",
+          "type": "button"
+        }]
+      }, {
+        "name": "customAdd",
+        "path": "/customAdd",
+        "component": "customAdd",
+        "title": "新增客户",
+        "type": "page"
+      }, {
+        "name": "customEdit",
+        "path": "/customEdit",
+        "component": "customEdit",
+        "title": "客户编辑",
+        "type": "page"
+      }, {
+        "name": "customDetail",
+        "path": "/customDetail",
+        "component": "customDetail",
+        "title": "客户详情",
+        "type": "page"
+      }]
+    },
+    {
+      "component": "basicService",
+      "name": "basicService",
+      "path": "/basicService",
+      "icon": "el-icon-document",
+      "title": "基础业务",
+      "children": [{
+        "name": "certification",
+        "path": "/certification",
+        "component": "certification",
+        "title": "认证业务",
+        "type": "page",
+        "button": [{
+            "name": "applyCertification",
+            "path": "/applyCertification",
+            "component": "applyCertification",
+            "title": "申请认证",
+            "icon": "el-icon-plus",
+            "type": "page"
+          },
+          {
+            "name": "certificationReport",
+            "path": "/certificationReport",
+            "component": "certificationReport",
+            "title": "认证汇报",
+            "icon": "el-icon-plus",
+            "type": "page"
+          },
+          {
+            "name": "certificationDetails",
+            "path": "/certificationDetails",
+            "component": "certificationDetails",
+            "title": "认证详情",
+            "icon": "el-icon-plus",
+            "type": "page"
+          },
+          {
+            "name": "downloadCertificate",
+            "path": "/downloadCertificate",
+            "component": "downloadCertificate",
+            "title": "下载证书",
+            "icon": "el-icon-plus",
+            "type": "page"
+          },
+          {
+            "name": "applyCertification",
+            "path": "/applyCertification",
+            "component": "applyCertification",
+            "title": "编辑认证",
+            "icon": "el-icon-edit",
+            "type": "page"
+          },
+          {
+            "name": "certificationReport",
+            "path": "/certificationReport",
+            "component": "certificationReport",
+            "title": "编辑汇报",
+            "icon": "el-icon-edit",
+            "type": "page"
+          },
+          {
+            "name": "deleteCertification",
+            "title": "删除",
+            "icon": "el-icon-delete",
+            "type": "button"
+          },
+          {
+            "name": "undoApplay",
+            "title": "撤销申请",
+            "icon": "el-icon-delete",
+            "type": "button"
+          },
+          {
+            "name": "cancelCertification",
+            "title": "取消认证",
+            "icon": "el-icon-delete",
+            "type": "button"
+          }
+        ]
+      }]
+    }
+  ]
+}
